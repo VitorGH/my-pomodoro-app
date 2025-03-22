@@ -1,0 +1,52 @@
+
+
+.container {
+    width: 50%;
+    max-width: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.title {
+    color: #ff5555;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.timer {
+    font-size: 60px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.171);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+button {
+    margin: 5px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:nth-child(1) { background-color: #28a745; color: white; } /* Start */
+button:nth-child(2) { background-color: #ffc107; color: black; } /* Pause */
+button:nth-child(3) { background-color: #dc3545; color: white; } /* Break */
+button:nth-child(4) { background-color: #6c757d; color: white; } /* Focus */
+button:nth-child(5) { background-color: #dc3545; color: white; } /* Reset */
