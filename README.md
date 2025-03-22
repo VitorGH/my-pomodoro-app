@@ -1,7 +1,7 @@
 # MyPomodoroApp
 
 ## Description ##
-My first angular project baed on pomodoro study technic
+My first angular project based on pomodoro study technic
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
 
